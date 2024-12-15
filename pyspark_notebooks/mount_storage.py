@@ -9,7 +9,7 @@
 
 # MAGIC %md
 # MAGIC ### Set-up the configs
-# MAGIC #### Please update the following 
+# MAGIC #### Please update the following gi
 # MAGIC - application-id
 # MAGIC - service-credential
 # MAGIC - directory-id
@@ -60,3 +60,6 @@ dbutils.fs.mount(
   source = "abfss://lookup@<storage account name>.dfs.core.windows.net/",
   mount_point = "/mnt/<storage account name>/lookup",
   extra_configs = configs)
+
+
+print("Necessary changes has been made")
